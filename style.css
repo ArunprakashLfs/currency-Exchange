@@ -20,7 +20,13 @@ body{
     flex-direction: column;
     gap: 1rem;
 }
+h1{
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 400;
+}
 .form{
+    text-align: center;
     display: flex;
     flex-direction: column;
     gap: 1rem;
@@ -34,4 +40,18 @@ body{
 .output-container{
     display: flex;
     flex-direction: column;
+    margin-bottom: 1rem;
+}
+input{
+    padding: 0.25rem;
+    border-radius: 5px;
+}
+select{
+    padding: 5px;
+    border-radius: 7px;
+    text-align: center;
+}
+.submit{
+    padding: 0.25rem;
+    background-color: red;
 }
